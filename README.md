@@ -4,18 +4,18 @@
 1. Classify patients with heart failure
 2. Identify correlated features
 
-### Approach
-* Option 1: *Predictive model*
+### Approach (options)
+1. **Predictive model**
     - Use a predictive model to classify patients who have heart failure 
     - Evaluate the performance of your model and suggest which features may be useful in heart failure prediction
-* Option 2: *Statistical learning* 
+2. **Statistical learning** 
     - Use statistical learning (with or without dimensionality reduction) to identify the combination of feature that 
     are more likely to be associated with heart failure
     - Based on your analysis, suggest which features may be useful to predict heart failure
-* Option 3: *Causal inference*
+3. **Causal inference**
     - Use causal inference to identify the features that are more likely to have a causal connection with heart failure
     - Based on your analysis, suggest which features may be useful to predict heart failure
-* Option 4: 
+4. **Other approach**
     - If you would prefer not to apply the suggested approaches, then build another form of predictive/statistical 
     model that will identify relevant features. *Surprise us!*
 
