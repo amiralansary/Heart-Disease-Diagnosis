@@ -28,6 +28,11 @@ Report (no more than 2 pages including plots):
 
 If your model is time consuming to train, then please provide the model as well
 
+### Submission
+1. Your 2-page report (as doc/pdf/txt)
+2. Your code, either as html/pdf (for notebooks) or share their code in a pastebin platform such as https://hastebin.com
+3. Please DO NOT email us a compressed file (e.g..zip,tar.gz,etc), as these often get blocked by our antivirus
+
 ---
 ## First steps:
 1. Download the 
