@@ -4,14 +4,23 @@
 1. Classify patients with heart failure
 2. Identify correlated features
 
+### Install
+```
+pip install -r requirements.txt
+```
+
 ### Usage
 Train
 
-```python main.py -t data/train.csv -v data/valid.csv --lr=0.0002 -b=20 --lr_scheduler cosine --epochs 1000 --suffix hidden_32_16```
+```
+python main.py -t data/train.csv -v data/valid.csv --lr=0.0002 -b=20 --lr_scheduler cosine --epochs 1000 --suffix hidden_32_16
+```
 
 Evaluate
 
-```python main.py -e -v data/test.csv --save_results test_results.csv --lr=0.0002 -b=20 --lr_scheduler cosine --resume models/arch\[NeuralNet\]_optim\[adam\]_lr\[0.0002\]_lrsch\[cosine\]_batch\[20\]_WeightedSampling\[False\]_hidden_32_16/model_best.pth.tar```
+```
+python main.py -e -v data/test.csv --save_results test_results.csv --lr=0.0002 -b=20 --lr_scheduler cosine --resume models/arch\[NeuralNet\]_optim\[adam\]_lr\[0.0002\]_lrsch\[cosine\]_batch\[20\]_WeightedSampling\[False\]_hidden_32_16/model_best.pth.tar
+```
 
 ### Approach (options)
 1. **Predictive model**
