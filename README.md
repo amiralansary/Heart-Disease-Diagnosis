@@ -1,4 +1,4 @@
-# Sensyne_Health_ML_assignment_042020
+# Heart Disease Diagnosis
 
 ## Main Task
 1. Classify patients with heart failure
@@ -40,3 +40,15 @@ If your model is time consuming to train, then please provide the model as well
 file, which is available from the [Data Folder](https://archive.ics.uci.edu/ml/datasets/Heart+Disease)
 2. Download the data description file 
 [heart-disease.names](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/heart-disease.names)
+
+
+---
+## Published solutions 
+
+Note: I have not looked on these solutions before I wrote mine (as I usually do before approaching any new problem).
+This to ensure that these published solutions will not bias my approach to solve the problem.
+
+1. https://github.com/AbdullahAlrhmoun/Heart-disease-prediction-model/blob/master/heart%2Bdisease%2Bmodelling.ipynb [Excellent]
+2. https://www.kaggle.com/aavigan/predicting-coronary-heart-disease-non-invasively [Excellent]
+3. https://www.kaggle.com/sharansmenon/heart-disease-pytorch-nn 
+3.
