@@ -100,7 +100,7 @@ def main():
     if args.arch == 'LogisticRegression':
         model = LogisticRegression(input_size=13, n_classes=args.classes)
     elif args.arch == 'NeuralNet':
-        model = NeuralNet(input_size=13, hidden_size=[64, 32], n_classes=args.classes)
+        model = NeuralNet(input_size=13, hidden_size=[32, 16], n_classes=args.classes) #hidden_size=[64, 32]
 
     if args.gpu is not None:
         print("Use GPU: {} for training".format(args.gpu))
@@ -276,7 +276,7 @@ def main():
             scheduler.step()
 
         # remember best acc@1 and save checkpoint
-        is_best = acc1 > best_acc1
+        is_best = acc1 >= best_acc1
         best_acc1 = max(acc1, best_acc1)
 
         print("Saving model [{}]...".format(save_dir))
@@ -406,6 +406,11 @@ def validate(val_loader, model, criterion, save_dir, args):
 
             if i % args.print_freq == 0:
                 progress.display(i)
+
+        # print('params values')
+        # for name, param in model.named_parameters():
+        #     if param.requires_grad:
+        #         print(name, param.data)
 
         print(' * Acc@1 {top1.avg:.3f} Acc@2 {top2.avg:.3f}'.format(top1=top1, top2=top2))
 

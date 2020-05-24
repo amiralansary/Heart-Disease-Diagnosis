@@ -4,6 +4,15 @@
 1. Classify patients with heart failure
 2. Identify correlated features
 
+### Usage
+Train
+
+```python main.py -t data/train.csv -v data/valid.csv --lr=0.0002 -b=20 --lr_scheduler cosine --epochs 1000 --suffix hidden_32_16```
+
+Evaluate
+
+```python main.py -e -v data/test.csv --save_results test_results.csv --lr=0.0002 -b=20 --lr_scheduler cosine --resume models/arch\[NeuralNet\]_optim\[adam\]_lr\[0.0002\]_lrsch\[cosine\]_batch\[20\]_WeightedSampling\[False\]_hidden_32_16/model_best.pth.tar```
+
 ### Approach (options)
 1. **Predictive model**
     - Use a predictive model to classify patients who have heart failure 
@@ -45,10 +54,12 @@ file, which is available from the [Data Folder](https://archive.ics.uci.edu/ml/d
 ---
 ## Published solutions 
 
-Note: I have not looked on these solutions before I wrote mine (as I usually do before approaching any new problem).
-This to ensure that these published solutions will not bias my approach to solve the problem.
+Note: I have not looked on these public solutions before I wrote mine (opposite to what I usually do before approaching 
+any new problem).
+This is to ensure that these published solutions will not bias my approach to solve the problem.
 
-1. https://github.com/AbdullahAlrhmoun/Heart-disease-prediction-model/blob/master/heart%2Bdisease%2Bmodelling.ipynb [Excellent]
-2. https://www.kaggle.com/aavigan/predicting-coronary-heart-disease-non-invasively [Excellent]
-3. https://www.kaggle.com/sharansmenon/heart-disease-pytorch-nn 
-3.
+1. https://github.com/AbdullahAlrhmoun/Heart-disease-prediction-model/blob/master/eart%2Bdisease%2Bmodelling.ipynb
+2. https://www.kaggle.com/aavigan/predicting-coronary-heart-disease-non-invasively
+3. https://www.kaggle.com/ronitf/predicting-heart-disease
+4. https://www.kaggle.com/sharansmenon/heart-disease-pytorch-nn 
+5. https://github.com/knickhill/heart-disease-classification/blob/master/part2-models.ipynb
