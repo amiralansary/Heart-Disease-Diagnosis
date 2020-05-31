@@ -23,9 +23,10 @@ python main.py -e -v data/test.csv --save_results test_results.csv --lr=0.0002 -
 ```
 
 ### Code
-1. Neural Network [[here](main.py)]
-2. Conventional ML models [[here](notebooks/test_ml.ipynb)]
-3. Report [[here](docs/Heart_disease_processed_cleveland_solution_Amir.pdf)]
+1. Data pre-processing [[here](notebooks/data_preprocessing.ipynb)] 
+2. Neural Network [[here](main.py)]
+3. Conventional ML models [[here](notebooks/test_ml.ipynb)]
+4. Report [[here](docs/Heart_disease_processed_cleveland_solution_Amir.pdf)]
 
 ---
 ## Data
