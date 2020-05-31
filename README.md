@@ -39,7 +39,7 @@ file, which is available from the [Data Folder](https://archive.ics.uci.edu/ml/d
 ---
 ## Other Published Code 
 
-1. https://github.com/AbdullahAlrhmoun/Heart-disease-prediction-model/blob/master/eart%2Bdisease%2Bmodelling.ipynb
+1. https://github.com/AbdullahAlrhmoun/Heart-disease-prediction-model
 2. https://www.kaggle.com/aavigan/predicting-coronary-heart-disease-non-invasively
 3. https://www.kaggle.com/ronitf/predicting-heart-disease
 4. https://www.kaggle.com/sharansmenon/heart-disease-pytorch-nn 
